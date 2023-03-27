@@ -20,6 +20,13 @@ const routes = [
         props: true // Truyền các biến trong $route.params vào làm props
     },
 
+    {
+        path: "/contacts/add",
+        name: "contact.add",
+        component: () => import("@/views/ContactAdd.vue"),
+        props: true // Truyền các biến trong $route.params vào làm props
+    },
+
    
 ];
 const router = createRouter({

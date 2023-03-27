@@ -55,6 +55,7 @@
 
 
     <script>
+    
         import ContactCard from "@/components/ContactCard.vue";
         import InputSearch from "@/components/InputSearch.vue";
         import ContactList from "@/components/ContactList.vue";
